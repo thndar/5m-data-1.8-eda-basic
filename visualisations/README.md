@@ -6,7 +6,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
 
 ## Available Illustrations
 
-### 1. Descriptive Statistics (`01_descriptive_statistics.png`)
+### 1. Descriptive Statistics
+![Descriptive Statistics](01_descriptive_statistics.png)
 - **Concepts**: `describe()`, `mean()`, `std()`, quartiles, min/max
 - **Visualizations**:
   - Histograms with mean and standard deviation lines
@@ -14,7 +15,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Summary statistics table
 - **Use case**: Show students how numerical summaries relate to actual data distributions
 
-### 2. Value Counts (`02_value_counts.png`)
+### 2. Value Counts
+![Value Counts](02_value_counts.png)
 - **Concepts**: `value_counts()`, `unique()`, frequency distributions
 - **Visualizations**:
   - Vertical and horizontal bar charts
@@ -23,7 +25,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Tabular comparison
 - **Use case**: Demonstrate categorical data frequency analysis
 
-### 3. Missing Data (`03_missing_data.png`)
+### 3. Missing Data
+![Missing Data](03_missing_data.png)
 - **Concepts**: `isna()`, `dropna()`, `fillna()`, missing data patterns
 - **Visualizations**:
   - Heatmap showing missing data patterns across DataFrame
@@ -33,7 +36,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Missing data correlation matrix
 - **Use case**: Help students identify and understand missing data patterns and handling strategies
 
-### 4. Outlier Detection (`04_outliers.png`)
+### 4. Outlier Detection
+![Outlier Detection](04_outliers.png)
 - **Concepts**: IQR method, Z-score method, outlier removal, capping/winsorizing
 - **Visualizations**:
   - Box plots with outliers highlighted
@@ -44,7 +48,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Statistical summary comparison
 - **Use case**: Teach different outlier detection methods and their impacts
 
-### 5. Categorical Data & Binning (`05_categorical_binning.png`)
+### 5. Categorical Data & Binning
+![Categorical Data & Binning](05_categorical_binning.png)
 - **Concepts**: `pd.cut()`, `pd.qcut()`, categorical dtype, `get_dummies()`
 - **Visualizations**:
   - Original continuous data distribution
@@ -56,7 +61,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Comparison table
 - **Use case**: Show the difference between cut() and qcut() and categorical operations
 
-### 6. Duplicates (`06_duplicates.png`)
+### 6. Duplicates
+![Duplicates](06_duplicates.png)
 - **Concepts**: `duplicated()`, `drop_duplicates()`, `keep` parameter
 - **Visualizations**:
   - Dataset size before/after duplicate removal
@@ -67,7 +73,8 @@ Since the main notebook focuses on pandas fundamentals without introducing visua
   - Example table showing keep behavior
 - **Use case**: Demonstrate how duplicates affect data and different removal strategies
 
-### 7. Cumulative Operations (`07_cumulative_operations.png`)
+### 7. Cumulative Operations
+![Cumulative Operations](07_cumulative_operations.png)
 - **Concepts**: `cumsum()`, `cumprod()`, `cummax()`, `cummin()`
 - **Visualizations**:
   - Original data (daily changes)
